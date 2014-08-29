@@ -1,0 +1,170 @@
+/*General properties*/
+
+html {
+	width: 100%;
+	position: fixed;
+	min-width: 1024px;
+}
+
+body {
+	font-family: arial, sans-serif;
+	font-size: .80em;
+	margin: 0px auto;
+	color: #000;
+}
+.clearfix {
+	clear: both;
+}
+
+button {
+	padding: 5px;
+	font-weight: bold;
+	font-size: .8em;
+	border: 1px solid #dedede;
+	border-radius: 3px;
+	margin: 0 6px;
+	color: #3E3F40;
+}
+
+button:hover {
+	box-shadow: 1px 1px 1px #dedede;
+}
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline-block;
+}
+
+a:link {
+	text-decoration: none;
+	color: #000;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #000;
+}
+
+a:active {
+	text-decoration: none;
+	color: #000;
+}
+
+/* top nav */
+
+#top_nav {
+	text-align: right;
+	display: block;
+}
+
+#top_nav ul {
+	padding: 15px;
+	margin: 0px;
+}
+
+#top_nav li {
+	vertical-align: middle;
+	padding-left: 15px;
+}
+
+#grid_icon {
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 25px;
+}
+
+#signin_button {
+	background-color: #408DD2;
+	color: #fff;
+	border: 1px solid #408DD2;
+	border-radius: 5px;
+}
+
+#signin_button:hover {
+	box-shadow: 1px 1px 1px #408DD2;
+}
+
+/*middle section*/
+
+#middle_section {
+	width: 100%;
+	margin: 10% auto;
+	text-align: center;
+}
+
+#google_label {
+	width: 269px;
+	height: 95px;
+	margin: 25px auto;
+	display: block;
+}
+
+input {
+	border: 1px solid #dedede;
+	border-radius: 2px;
+	width: 550px;
+	height: 25px;
+	background: url('img/microphone.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 4%;
+	border-width: 1px;
+	line-height: normal;
+}
+
+#mid_buttons {
+	display: block;
+	margin: 20px;
+}
+
+
+/*footer*/
+
+footer {
+	background-color: #ededed;
+	position: fixed;
+	display: block;
+	width: 100%;
+	min-width: 1024px;
+	bottom: 0px;
+	border-top: #dedede 2px solid;
+}
+
+footer ul {
+	margin: 0px;
+	padding: 10px 15px;
+}
+
+footer a:link {
+	color: red;
+}
+
+#footer_left {
+	float: left;
+	text-align: left;
+}
+
+#footer_left li {
+	padding: 0px 15px 0px 0px;
+}
+
+#footer_right {
+	float: right;
+	text-align: right;
+}
+
+#footer_right li {
+	padding: 0px 0px 0px 15px;
+}
+
+span {
+	color: red;
+	font-weight: bold;
+}
